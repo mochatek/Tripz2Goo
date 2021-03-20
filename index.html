@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tripz2goo</title>
+
+        <!-- font awesome cdn file link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- header section starts  -->
+        <header>
+            <a href="#" class="logo">Tripz<span>2goo</span></a>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a data-scroll="home" href="#home" class="active">home</a></li>
+                    <li><a data-scroll="feature" href="#feature">feature</a></li>
+                    <li><a data-scroll="about" href="#about">about</a></li>
+                    <li><a data-scroll="gallery" href="#gallery">gallery</a></li>
+                    <li><a data-scroll="review" href="#review">review</a></li>
+                    <li><a data-scroll="contact" href="#contact">contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="fas fa-bars"></div>
+        </header>
+
+        <!-- home section starts  -->
+        <section class="home" id="home">
+            <div class="video">
+                <video src="res/video1.mp4" loop muted autoplay></video>
+            </div>
+
+            <div class="content">
+                <h1>Tours and Travels</h1>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod necessitatibus sunt atque consequuntur quam veniam magnam consectetur, odio velit alias!</p> -->
+            </div>
+        </section>
+
+        <!-- feature section starts  -->
+        <section class="feature" id="feature">
+            <h1 class="heading"><span>f</span>eatured <span>l</span>ocations</h1>
+
+            <div class="card-container">
+                <div class="card">
+                    <span class="discount">-35%</span>
+                    <img src="res/kerala.jpg" alt="">
+                    <div class="content">
+                        <h3 class="title">kerala</h3>
+                        <p>God’s Own Country of Kerala is a much sought after tourist destination of India. Kerala is not only known for its hill stations, backwaters and the scenic beauty but also for its beaches.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" onclick="return showInModal('kerala')"><button class="btn">check out!</button></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="res/agra.jpg" alt="">
+                    <div class="content">
+                        <h3 class="title">agra</h3>
+                        <p>Located on the banks of River Yamuna in Uttar Pradesh, Agra is a popular tourist destination as it is home to one of the 7 wonders of the world, the Taj Mahal.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" onclick="return showInModal('agra')"><button class="btn">check out!</button></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="discount">-45%</span>
+                    <img src="res/kashmir.jpg" alt="">
+                    <div class="content">
+                        <h3 class="title">kashmir</h3>
+                        <p>"Paradise on the Earth" the state is world famous for its scenic splendour, snow-capped mountains, plentiful wildlife, hospitable people and local handicraft.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" onclick="return showInModal('kashmir')"><button class="btn">check out!</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section starts  -->
+        <section id="about" class="about">
+            <h1 class="heading"><span>a</span>bout <span>u</span>s</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="res/about.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>
+                        Over 5 years of expertise with innovation at its core. We pioneered group travel In Kerala & are continuously evolving and investing in leading edge technology for a perfect holiday.
+                    </p><br>
+                    <p>
+                        Join the Tripz2goo family - Over 1 lac customers have created their most memorable Experiences with us !!
+                    </p>
+                    <a href="#about"><button class="btn btn1">read more</button></a>
+                    <a href="#getInTouch"><button class="btn">get in touch</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery section starts  -->
+        <section id="gallery" class="gallery">
+            <h1 class="heading"><span>g</span>allery</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="res/kerala.jpg" alt="">
+                    <!-- <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-search"></a>
+                    </div> -->
+                </div>
+
+                <div class="box">
+                    <img src="res/agra.jpg" alt="">
+                </div>
+
+                <div class="box">
+                    <img src="res/kashmir.jpg" alt="">
+                </div>
+
+                <div class="box">
+                    <img src="res/beach.jpg" alt="">
+                </div>
+
+                <div class="box">
+                    <img src="res/temple.jpg" alt="">
+                </div>
+
+                <div class="box">
+                    <img src="res/boating.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- review section starts  -->
+        <section id="review" class="review">
+            <h1 class="heading"><span>r</span>eview</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="res/mohanlal.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Mohanlal</h3>
+                        <p>Very committed service with proper follow-up. Service provided as per their schedule with a hassle free journey... Thanks</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="res/mammootty.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Mammootty</h3>
+                        <p>The best travel agency. The planning and timing by the agency was great. Accommodation was also good at 3star hotels. The package was reasonable. Thanks to Travelling bud.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="res/sureshgopi.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Suresh Gopi</h3>
+                        <p>Tripz2goo Tours is the tour based agency provide everything they mention in their packages. Great guider and professional.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section starts  -->
+        <section id="contact" class="contact">
+            <h1 class="heading"><span>c</span>ontact <span>u</span>s</h1>
+
+            <iframe src="https://maps.google.com/maps?hl=en&amp;q=Kochi,%20Kerala,%20682001+(Tripz2goo)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="300" frameborder="0" style="border:0; outline:none;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <div class="row">
+                <div class="contact-info">
+                    <div class="box">
+                        <h3><i class="fas fa-home"></i> address </h3>
+                        <p>kochi,<br>
+                        kerala,<br>
+                        682001</p>
+                    </div>
+
+                    <div class="box">
+                        <h3><i class="fas fa-envelope"></i> e-mail </h3>
+                        <p class="mails">tripz2goo@gmail.com<br>
+                            tripz2goo@ymail.com<br>
+                            lockson@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="box">
+                        <h3><i class="fas fa-phone"></i> phone </h3>
+                        <p>+91 9898989898<br>
+                            +91 9797979797<br>
+                            +91 9696969696
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container" id="getInTouch">
+                    <form onsubmit="return sendMail(this)">
+                        <h3>get in touch</h3>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message..."></textarea>
+                        <input type="submit" value="message">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section starts  -->
+        <section class="footer">
+            <h3 class="credit"><span>MochaTek</span> | all rights reserved.</h3>
+
+            <div class="icons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </section>
+
+        <!-- modal -->
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <div class="modal-content" id="modalContent"></div>
+        </div>
+
+        <!-- jquery cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- custom js file link  -->
+        <script src="index.js"></script>
+    </body>
+</html>
