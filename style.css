@@ -335,7 +335,7 @@ header .fa-bars {
 .review .heading span {
   color: gold;
 }
-
+/* 
 .review .box-container {
   display: flex;
   justify-content: center;
@@ -345,6 +345,26 @@ header .fa-bars {
 .review .box-container .box {
   width: 35rem;
   margin: 4rem 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 0.3rem 0.5rem #000;
+  background: #fff;
+} */
+
+.scrollable {
+  overflow-x: scroll;
+}
+
+.review .box-container {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+.review .box-container .box {
+  width: 35rem;
+  margin: 5rem 2rem;
   padding-bottom: 2rem;
   text-align: center;
   box-shadow: 0 0.3rem 0.5rem #000;
