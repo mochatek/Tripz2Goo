@@ -14,6 +14,10 @@ html {
   font-size: 62.5%;
 }
 
+a:visited {
+  color: inherit;
+}
+
 .heading {
   color: #333;
   font-size: 3.5rem;
@@ -226,8 +230,8 @@ header .fa-bars {
 }
 
 .about .row .image img {
-  height: 65vh;
-  width: 50vw;
+  height: auto;
+  width: 95vh;
 }
 
 .about .row .content h3 {
@@ -238,6 +242,16 @@ header .fa-bars {
 .about .row .content p {
   font-size: 1.9rem;
   color: #333;
+  text-transform: none;
+  text-align: justify;
+}
+
+.about .row .content li {
+  text-transform: none;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-left: 3em;
+  font-weight: bold;
 }
 
 .about .row .content .btn {
