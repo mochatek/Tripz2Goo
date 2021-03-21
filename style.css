@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Open+Sans:wght@300&family=Redressed&display=swap");
 
+.sticky {
+  display: block;
+  z-index: 2;
+  position: fixed;
+  bottom: 33%;
+  right: 0;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 7px 0 0 7px;
+  background-color: black;
+}
+
+.sticky p {
+  color: white;
+  font-weight: bold;
+}
+
+.sticky:hover {
+  box-shadow: 1px 1px 10px 2px #0098a1;
+}
+
 * {
   font-family: "Nunito Sans";
   padding: 0;
