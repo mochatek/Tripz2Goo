@@ -33,7 +33,7 @@ function sendMail(form) {
 
   if (message) {
     window.open(
-      `mailto:test1@gmail.com,test2@gmail.com?subject=Tour%20Package%20Enquiry&body=${message}`
+      `mailto:tripz2goo@gmail.com?subject=Tour%20Package%20Enquiry&body=${message}`
     );
   } else {
     alert("Sorry. You can't send empty message !");
@@ -41,6 +41,19 @@ function sendMail(form) {
 
   return false;
 }
+
+// Collapsible packages
+document.querySelectorAll(".collapsible").forEach((package) => {
+  package.addEventListener("click", function () {
+    this.classList.toggle("active");
+    const content = this.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+});
 
 $(document).ready(function () {
   $(".fa-bars").click(function () {

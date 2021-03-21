@@ -238,6 +238,62 @@ header .fa-bars {
   font-size: 2rem;
 }
 
+.package {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 1.2rem 4rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2.2rem;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.package .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f9f9f9;
+  font-size: 1.8rem;
+  border: 2px solid #777;
+}
+
+.head {
+  padding-top: 1%;
+  margin-left: 5%;
+  color: #0098a1;
+  font-weight: bold;
+}
+
+.package .content ul {
+  margin-left: 10%;
+  list-style: disc;
+  padding: 2%;
+}
+
 .about {
   min-height: 100vh;
 }
