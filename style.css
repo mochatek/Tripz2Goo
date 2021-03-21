@@ -279,6 +279,7 @@ header .fa-bars {
   min-height: 100vh;
 }
 
+/* 
 .gallery .box-container {
   display: flex;
   align-items: center;
@@ -286,6 +287,13 @@ header .fa-bars {
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
+} */
+
+.gallery .box-container {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  display: inline-flex;
+  flex-wrap: nowrap;
 }
 
 .gallery .box-container .box {
