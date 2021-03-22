@@ -45,7 +45,7 @@ function sendMail(form) {
 // Collapsible packages
 document.querySelectorAll(".collapsible").forEach((package) => {
   package.addEventListener("click", function () {
-    this.classList.toggle("active");
+    this.classList.toggle("selected");
     const content = this.nextElementSibling;
     if (content.style.maxHeight) {
       content.style.maxHeight = null;

@@ -255,7 +255,7 @@ header .fa-bars {
   font-size: 2.2rem;
 }
 
-.active,
+.selected,
 .collapsible:hover {
   background-color: #555;
 }
@@ -268,7 +268,7 @@ header .fa-bars {
   margin-left: 5px;
 }
 
-.active:after {
+.selected:after {
   content: "\2212";
 }
 
