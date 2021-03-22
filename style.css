@@ -382,8 +382,8 @@ header .fa-bars {
 }
 
 .gallery .box-container .box {
-  height: 20rem;
-  width: 30rem;
+  height: 30vh;
+  width: 50vh;
   margin: 2rem;
   cursor: pointer;
   overflow: hidden;
@@ -470,7 +470,7 @@ header .fa-bars {
 }
 
 .review .box-container .box {
-  width: 35rem;
+  width: 50vh;
   margin: 5rem 2rem;
   padding-bottom: 2rem;
   text-align: center;
