@@ -76,13 +76,21 @@ header {
 }
 
 header .logo {
+  display: flex;
   color: #333;
   font-size: 3rem;
   font-weight: bold;
+  align-items: center;
 }
 
 header .logo span {
   color: #0098a1;
+}
+
+header .logo img {
+  width: 6vh;
+  height: 6vh;
+  object-fit: cover;
 }
 
 header .navbar ul {
