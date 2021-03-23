@@ -152,7 +152,7 @@ header .fa-bars {
 }
 
 .home .content img {
-  width: 50%;
+  width: 80vh;
 }
 
 /*
@@ -678,8 +678,8 @@ textarea {
   }
 
   .home .content img {
-    margin-bottom: 5rem;
-    width: 90%;
+    margin-bottom: 8rem;
+    width: 60vh;
   }
 
   /* .home .content {
